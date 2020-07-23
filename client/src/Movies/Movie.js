@@ -41,7 +41,7 @@ function Movie({ addToSavedList, deleteMovie }) {
 
       <div onClick={() => {
           deleteCurrentMovie(); 
-          push(`/movies/${movie.id}`, movie);
+          push(`/`);
         }}>
         Delete
       </div>
